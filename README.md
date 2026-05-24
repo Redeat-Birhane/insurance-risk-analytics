@@ -92,7 +92,28 @@ pip install -r requirements.txt
 dvc init
 ```
 
+## Reproducing Data Pipeline (DVC)
+
+This project uses DVC (Data Version Control) to ensure reproducibility of the dataset pipeline. All datasets are versioned and can be restored at any time.
+
 ---
+
+### 1. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+2. Initialize DVC and Restore Data
+
+If cloning the repository for the first time:
+dvc init
+dvc pull
+---
+
+3. Run the Data Pipeline
+
+To reproduce the data processing pipeline from raw data to cleaned data:
+dvc repro
 
 # Technologies Used
 
