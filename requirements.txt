@@ -6,5 +6,7 @@ scipy
 scikit-learn
 jupyter
 notebook
-dvc
 pytest
+flake8
+black
+dvc
